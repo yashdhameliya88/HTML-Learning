@@ -1,0 +1,9 @@
+p{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p::selection{
+    background-color: blueviolet;
+    color: white;
+}
