@@ -3,7 +3,7 @@ p{
     font-weight: bold;
 }
 
-p::selection{
+h1::selection{
     background-color: blueviolet;
-    color: white;
+    color: yellow;
 }
