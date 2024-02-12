@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+}
+
+button{
+    width: 250px;
+    height: 65px;
+    font-size: 26px;
+    font-weight: bold;
+    border: none;
+    margin: 10% 0% 0% 4%;
+    background-color: #fb0000;
+    color: black;
+    transition: all ease 0.5s;
+}
+
+button:hover{
+    -webkit-box-reflect: below
+    1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 5px #f40303,0 0 15px #f40303,0 0 25px #f40303,0 0 100px #f40303;
+    cursor: pointer;
+}
