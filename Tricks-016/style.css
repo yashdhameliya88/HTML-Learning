@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page{
+    h2{
+        text-align: center;
+        background-color: #ccc;
+    }
+
+    h4{
+        text-align: center;
+    }
+    
+    background-color: rgb(101, 112, 255);
+    width: 350px;
+    height: 450px;
+    border: 5px solid black;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-bar{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-bar a{
+    padding: 4px 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.page-bar a:hover{
+    background-color: #ccc;
+}
