@@ -1,0 +1,10 @@
+*{
+    margin: 50px;
+}
+
+h1{
+    background: linear-gradient(90deg, blue, red);
+    position: absolute;
+    background-clip: text;
+    color: transparent;
+}
