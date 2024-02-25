@@ -1,0 +1,27 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: 40px;
+    position: fixed;
+    width: 600px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px 0.5cap rgba(0, 0, 0, 0.70);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 10px;
+}
+
+p{
+    text-align: justify;
+    margin: 10px;
+    font-family: Cambria;
+    color: black;
+    font-weight: 600;
+}
