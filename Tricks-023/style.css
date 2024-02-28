@@ -5,11 +5,7 @@
     margin: 100px;
 }
 
-img{
+img, h1{
     width: 150px;
-    filter: drop-shadow(10px 10px 2px #1c1c1c);
-}
-
-h1{
     filter: drop-shadow(10px 10px 2px #1c1c1c);
 }
