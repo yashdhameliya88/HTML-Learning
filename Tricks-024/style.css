@@ -1,0 +1,17 @@
+*{
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img, h1{
+    width: 150px;
+    -webkit-animation: bounce .4s ease infinite alternate;
+}
+
+@keyframes bounce{
+    100%{
+        filter: drop-shadow(10px 10px 2px #1a1a1a);
+        transform: translateY(-20px);
+    }
+}
