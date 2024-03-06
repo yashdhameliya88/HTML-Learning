@@ -1,0 +1,11 @@
+*{
+    background-color: yellow;
+}
+
+img{
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: darken;
+    margin: 10px;
+}
